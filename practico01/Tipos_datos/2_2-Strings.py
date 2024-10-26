@@ -9,5 +9,9 @@ print ("El tipo de la variable es" , type(mi_nombre) , "\n")
 #Que tan grande sea la cadena
 #Asteriscos agregados en los laterales de cada letra para mayor legibilidad
 print ("El contenido de la variable en la posicion inicial es *",mi_nombre[0],"* y su contenido en la ultima posicion es *",mi_nombre[len(mi_nombre)-1],"*\n")
-
-
+#Uso de la funcion len() para calcular longitud de string y presentar por pantalla
+print ("El string contenido por la variable posee una longitud total de ", len(mi_nombre),"\n")
+#Impresion del contenido de la variable completa en mayuscula y minuscula
+print ("El contenido del string original es: ",mi_nombre)
+print ("El contenido del string en minuscula, es: ",mi_nombre.lower())
+print ("Y, finalmente, el contenido del string en mayuscula, es: ",mi_nombre.upper())
